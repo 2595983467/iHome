@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/room/room",
+    "pages/my/my",
+    "pages/login/login",
+    "pages/editor/editor",
+    "pages/chengyuanguanli/chengyuanguanli",
+    "pages/jiatingguanli/jiatingguanli",
+    "pages/shoucang/shoucang",
+    "pages/yijianfankui/yijianfankui",
+    "pages/shezhi/shezhi",
+    "pages/guanyu/guanyu",
+    "pages/test/test",
+    "pages/add/add",
+    "pages/delete/delete"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序天气数据展示"
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#EFF6FE",
+    "navigationBarTitleText": "iHome",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "selectedIconPath": "images/tabbar/shome.png",
+        "iconPath": "images/tabbar/home.png",
+        "pagePath": "pages/index/index",
+        "text": "主页"
+      },
+      {
+        "selectedIconPath": "images/tabbar/sroom.png",
+        "iconPath": "images/tabbar/room.png",
+        "pagePath": "pages/room/room",
+        "text": "房间"
+      },
+      {
+        "selectedIconPath": "images/tabbar/suser.png",
+        "iconPath": "images/tabbar/user.png",
+        "pagePath": "pages/my/my",
+        "text": "我的"
+      }
+    ]
+  }
+}

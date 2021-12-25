@@ -1,0 +1,60 @@
+{
+    "setting": {},
+    "condition": {
+        "plugin": {
+            "list": []
+        },
+        "game": {
+            "list": []
+        },
+        "gamePlugin": {
+            "list": []
+        },
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "login",
+                    "pathName": "pages/login/login",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "my",
+                    "pathName": "pages/my/my",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "home",
+                    "pathName": "pages/index/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "guanyu",
+                    "pathName": "pages/guanyu/guanyu",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "yijianfankui",
+                    "pathName": "pages/yijianfankui/yijianfankui",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "weather",
+                    "pathName": "pages/weather/weather",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "test",
+                    "pathName": "pages/test/test",
+                    "query": "",
+                    "scene": null
+                }
+            ]
+        }
+    }
+}
