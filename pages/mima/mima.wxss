@@ -1,0 +1,249 @@
+/* pages/mima/mima.wxss */
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    height: 10rpx;
+    /* background-color: aqua; */
+    margin: 100rpx auto;
+    border-radius: 16rpx;
+  }
+  .box .item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 70rpx;
+    border-radius: 16rpx;
+
+  }
+
+  .item .icon{
+   margin-top: 20rpx;
+    width: 60rpx;
+    height: 60rpx;
+  }
+
+ .text{
+    font-family: SourceHanSansCN-Regular;
+    font-size: 35rpx;
+    /* align-items: center; */
+    align-items: center;
+    /* margin-bottom: 10rpx; */
+    margin-bottom: 20rpx;
+    margin-top: 30rpx;
+    margin-left: 0rpx;
+
+  }
+
+  .minibox{
+    display: flex;
+  }
+    
+.search-body {
+    position: absolute;
+    width: 600rpx;
+    height: 56rpx;
+    margin: 0 auto;
+    line-height: 76rpx;
+    top: 10%;
+    left: 59%;
+    margin-left: -300rpx;
+    color: #888;
+    border: 1rpx solid #888;
+    border-radius: 40rpx;
+    position: absolute;
+    /*border: 1px solid red;*/
+  }
+  
+  .search-body input {
+    display: inline-block;
+    width: 500rpx;
+    height: 76rpx;
+    padding-left: 34rpx;
+  }
+  
+  .search-body input::-webkit-input-placeholder {
+    color: #b2b2b2;
+  }
+  
+  .search-body-icon {
+    position: absolute;
+    top: 50%;
+    right: 20rpx;
+    height: 76rpx;
+    margin-top: -30rpx;
+    line-height: 76rpx;
+  }
+  
+  .search-body-icon image {
+    width: 38rpx;
+    height: 38rpx;
+  }
+
+  .box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    height: 10rpx;
+    /* background-color: aqua; */
+    margin: 100rpx auto;
+    border-radius: 16rpx;
+  }
+  .box2 .item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 70rpx;
+    border-radius: 16rpx;
+
+  }
+  .text2{
+    font-family: SourceHanSansCN-Regular;
+    font-size: 35rpx;
+    /* align-items: center; */
+    align-items: center;
+    /* margin-bottom: 10rpx; */
+    margin-bottom: 20rpx;
+    margin-top: 30rpx;
+    margin-left: 0rpx;
+
+  }
+  
+
+ 
+    
+.search-body2 {
+    position: absolute;
+    width: 600rpx;
+    height: 56rpx;
+    margin: 0 auto;
+    line-height: 76rpx;
+    top: 19%;
+    left: 59%;
+    margin-left: -300rpx;
+    color: #888;
+    border: 1rpx solid #888;
+    border-radius: 40rpx;
+    position: absolute;
+    /*border: 1px solid red;*/
+  }
+  
+  .search-body2 input {
+    display: inline-block;
+    width: 500rpx;
+    height: 76rpx;
+    padding-left: 34rpx;
+  }
+  
+  .search-body2 input::-webkit-input-placeholder {
+    color: #b2b2b2;
+  }
+  
+  .search-body2-icon {
+    position: absolute;
+    top: 50%;
+    right: 20rpx;
+    height: 76rpx;
+    margin-top: -30rpx;
+    line-height: 76rpx;
+  }
+  
+  .search-body2-icon image {
+    width: 38rpx;
+    height: 38rpx;
+  }
+  
+  .box3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    height: 600rpx;
+    /* background-color: aqua; */
+    margin: 100rpx auto;
+    border-radius: 16rpx;
+  }
+  .box3 .item{
+    display: flexbox;
+    justify-content: space-between;
+    width: 100%;
+    height: 200rpx;
+    border-radius: 0rpx;
+
+  }
+  .text3{
+    font-family: SourceHanSansCN-Regular;
+    font-size: 35rpx;
+    /* align-items: center; */
+    align-items: center;
+    /* margin-bottom: 10rpx; */
+    margin-bottom: 20rpx;
+    margin-top: 30rpx;
+    margin-left: 0rpx;
+
+  }
+    
+.search-body3 {
+    position: absolute;
+    width: 600rpx;
+    height: 56rpx;
+    margin: 0 auto;
+    line-height: 76rpx;
+    top: 28%;
+    left: 59%;
+    margin-left: -300rpx;
+    color: #888;
+    border: 1rpx solid #888;
+    border-radius: 40rpx;
+    /*border: 1px solid red;*/
+  }
+  
+  .search-body3 input {
+    display: inline-block;
+    width: 500rpx;
+    height: 76rpx;
+    padding-left: 34rpx;
+  }
+  
+  .search-body3 input::-webkit-input-placeholder {
+    color: #b2b2b2;
+  }
+  
+  .search-body3-icon {
+    position: absolute;
+    top: 50%;
+    right: 20rpx;
+    height: 76rpx;
+    margin-top: -30rpx;
+    line-height: 76rpx;
+  }
+  
+  .search-body3-icon image {
+    width: 38rpx;
+    height: 38rpx;
+  }
+
+  .Undreaming_Body3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 40%;
+    margin-top: 20%;
+    margin-left: 10%;
+  }
+  .Undreaming_Body3 button{
+    width: 500rpx;
+    height: 100rpx;
+    border-radius: 70rpx;
+    background-color: #ebe7e7;
+    color: #68a6e0;
+  
+  }
+  
+  
+  

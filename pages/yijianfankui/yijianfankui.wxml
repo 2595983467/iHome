@@ -1,0 +1,10 @@
+<!--pages/yijianfankui/yijianfankui.wxml-->
+<view class="box1">
+    <image class="pic" src="/images/yijianfankui/yijianfankui.png" mode="widthFix"></image>
+
+
+    <button open-type='feedback' type='primary'>意见反馈</button>
+
+
+
+</view>

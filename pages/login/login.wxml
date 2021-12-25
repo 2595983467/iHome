@@ -1,0 +1,6 @@
+<!--pages/login/login.wxml-->
+<view>
+<image src="../../images/login/logo.png" mode="widthFix" class="logostyle" style="width: 750rpx; height: 256rpx; display: inline-block; box-sizing: border-box"></image>
+<button type="primary" class="loginbutton" bindtap="login"> 登录 </button>
+<button type="primary" plain class="loginbutton2" bindtap="notlogin">取消登录</button>
+</view>

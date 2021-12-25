@@ -1,0 +1,47 @@
+<!--pages/shezhi/shezhi.wxml-->
+
+
+<view class="box">
+
+<view class="item" bindtap="zhanghaoanquan">
+<view class="minibox">
+  <image class="icon" src="/images/shezhi/zhanghaoanquan.png" mode="widthFix"></image>
+  <view class="text">账号安全</view>
+  </view>
+  <view>
+  <image class="righticon" src="/images/shezhi/jiantou.png" mode="widthFix"></image>
+  </view>
+</view>
+
+<view class="item" bindtap="xiaoxitongzhi">
+  <view class="minibox">
+    <image class="icon" src="/images/shezhi/xiaoxitongzhi.png" mode="widthFix"></image>
+    <view class="text">消息通知</view>
+    </view>
+    <view>
+    <image class="righticon" src="/images/shezhi/jiantou.png" mode="widthFix"></image>
+    </view>
+  </view>
+
+
+<view class="item" bindtap="tongyong">
+  <view class="minibox">
+    <image class="icon" src="/images/shezhi/tongyong.png" mode="widthFix"></image>
+    <view class="text">通用</view>
+    </view>
+    <view>
+    <image class="righticon" src="/images/shezhi/jiantou.png" mode="widthFix"></image>
+    </view>
+  </view>
+
+
+<view class="item" bindtap="bangzhu">
+  <view class="minibox">
+    <image class="icon" src="/images/shezhi/bangzhu.png" mode="widthFix"></image>
+    <view class="text">帮助</view>
+    </view>
+    <view>
+    <image class="righticon" src="/images/shezhi/jiantou.png" mode="widthFix"></image>
+    </view>
+  </view>
+</view>

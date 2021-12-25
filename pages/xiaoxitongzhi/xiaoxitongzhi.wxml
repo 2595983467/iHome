@@ -1,0 +1,20 @@
+<!--pages/xiaoxitongzhi/xiaoxitongzhi.wxml-->
+<view class="box">
+
+<view class="item" bindtap="xiaoxi1">
+<view class="minibox">
+  <view class="text">消息1：空调已经于7点40分时关闭</view>
+  </view>
+  <view>
+  </view>
+</view>
+
+<view class="item" bindtap="xiaoxi2">
+<view class="minibox">
+  <view class="text">消息2：...</view>
+  </view>
+  <view>
+  </view>
+</view>
+
+</view>

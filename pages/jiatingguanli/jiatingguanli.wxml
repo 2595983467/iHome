@@ -1,0 +1,19 @@
+<view class="add_button">
+  <button  style="width:80vw;height:10vw;font-size: 32rpx;color:#808A87;margin-bottom: 30rpx;font-family: 'Times New Roman', Times, serif;background-color: #F5F5F5;border-radius:30rpx;" bindtap="add_device">添加设备</button>
+</view>
+<view class="delete_button">
+  <button style="width:80vw;height:10vw;font-size: 32rpx;color:#FFFFFF;margin-bottom: 30rpx;font-family: 'Times New Roman', Times, serif;background-color: #C0C0C0;border-radius:30rpx;"bindtap="delete_device">删除设备</button>
+</view>
+<view class="items" wx:for="{{list}}" >  
+   <view class="device_list">
+   <view class="device_container">
+    <image class="device_image" src="{{item.file_url}}"></image>
+           <view class="device_text">
+               <view class="text">设备id：{{item._id}}</view>
+               <view class="text">设备名称：{{item.Name}}</view> 
+          </view>
+          <switch class="switch" bindtap="click" checked="{{switchAllChecked}}"/> 
+   </view>
+</view>
+</view>
+

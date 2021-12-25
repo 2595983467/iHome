@@ -1,0 +1,97 @@
+<!--index.wxml-->
+<view class="box1" bindtap="touxiang">
+      
+    <view  wx:if="{{!hasuserInfo}}">
+        <image  src="/images/my/touxiang.png" class="userinfo-avatar" mode="widthFix"></image>
+    </view>
+
+    
+    <view wx:else>
+        <image  src="{{userInfo.avatarUrl}}" class="userinfo-avatar" mode="cover"></image>
+    <!-- <open-data type="userAvatarUrl"></open-data> -->
+    </view>
+</view>
+
+<view class="box2">
+
+    <block wx:if="{{hasuserInfo}}">
+       <text class="text"> {{userInfo.nickName}}的家</text>
+       <image src="/images/index/jiantou.png" mode="widthFix" class="pic"></image>
+    </block>
+    <block wx:else=""></block>
+
+
+</view>
+
+<view class="box3">
+
+    <view class="weatherbox">
+    <image style="width: 160rpx; height: 160rpx;margin: 20rpx 20rpx;" src="/images/index/weather.png" mode="widthFix"></image>
+    <view style="color: aliceblue; font-size: 55rpx;margin-left: 35rpx; margin-top: 60rpx;">{{temperature_text}}℃</view>
+    <view style="font-size: 55rpx; color: aliceblue;margin-top:56rpx ;margin-left: 55rpx;"> {{weather}}</view>
+    <view style="margin: auto;color: beige;">{{city}}</view>
+    </view>
+
+
+</view>
+
+<view class="box4">
+    <view class="text2">场景切换</view>
+
+<scroll-view class="changjing" scroll-x >
+    
+        <view wx:if="{{!is_click}}" class="inchangjing" bindtap="click"><image class="icon" src="/images/index/backhome.png" mode="aspectFill"></image></view>  
+        <view wx:else class="inchangjing" bindtap="clickagain"><image class="icon"  src="/images/index/backhomeselect.png" mode="aspectFill"></image></view>  
+
+
+        <view wx:if="{{!is_click}}" class="inchangjing"><image class="icon" src="/images/index/leavehome.png" mode="aspectFill"></image></view>
+        <view wx:else class="inchangjing"><image class="icon" src="/images/index/leavehomeselect.png" mode="aspectFill"></image></view>
+
+
+        <view wx:if="{{!is_click}}" class="inchangjing"><image class="icon" src="/images/index/sleepingmode.png" mode="aspectFill"></image></view>
+        <view wx:else class="inchangjing"><image class="icon" src="/images/index/sleepingmodeselect.png" mode="aspectFill"></image></view>
+
+
+        <view wx:if="{{!is_click}}" class="inchangjing"><image class="icon" src="/images/index/readingmode.png" mode="aspectFill"></image></view>
+        <view wx:else class="inchangjing"><image class="icon" src="/images/index/readingmodeselect.png" mode="aspectFill"></image></view>
+
+
+
+        <view wx:if="{{!is_click}}" class="inchangjing"><image class="icon" src="/images/index/funmode.png" mode="aspectFill"></image></view>
+        <view wx:else class="inchangjing"><image class="icon" src="/images/index/funmodeselect.png" mode="aspectFill"></image></view>
+
+    
+</scroll-view>
+</view>
+
+<view class="text3">房间</view>
+
+<view class="box5">
+
+    <scroll-view class="changjing2" scroll-x>
+
+        <view class="inchangjing2">
+            <image class="pic2" src="/images/index/keting.png" mode="aspectFill"></image>
+        </view>
+
+        <view class="inchangjing2">
+            <image class="pic2" src="/images/index/chufang .png" mode="aspectFill"></image>
+        </view>
+
+        <view class="inchangjing2">
+            <image class="pic2" src="/images/index/zhuwo.png" mode="aspectFill"></image>
+        </view>
+
+        <view class="inchangjing2">
+            <image class="pic2" src="/images/index/ciwo.png" mode="aspectFill"></image>
+        </view>
+        
+    
+
+</scroll-view>
+
+
+
+</view>
+
+

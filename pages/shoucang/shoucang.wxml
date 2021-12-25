@@ -1,0 +1,11 @@
+<!--pages/shoucang/shoucang.wxml-->
+<view class="box1"> 
+
+    <image class="pic" src="/images/shoucang/shoucang.png" mode="widthFix"></image>
+    <view class="text">
+    收藏夹空空如也
+    </view>
+    
+
+
+</view>

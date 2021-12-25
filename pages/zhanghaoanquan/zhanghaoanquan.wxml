@@ -1,0 +1,22 @@
+<!--pages/zhanghaoanquan/zhanghaoanquan.wxml-->
+<view class="box">
+
+<view class="item" bindtap="mima">
+<view class="minibox">
+  <view class="text">密码</view>
+  </view>
+  <view>
+  <image class="righticon" src="/images/shezhi/jiantou.png" mode="widthFix"></image>
+  </view>
+</view>
+
+<view class="item" bindtap="gengduoanquanshezhi">
+<view class="minibox">
+  <view class="text">更多安全设置</view>
+  </view>
+  <view>
+  <image class="righticon" src="/images/shezhi/jiantou.png" mode="widthFix"></image>
+  </view>
+</view>
+
+</view>

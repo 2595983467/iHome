@@ -1,0 +1,51 @@
+<!--pages/mima/mima.wxml-->
+<view class="box">
+
+<view class="item" bindtap="jiumima">
+<view class="minibox">
+  <view class="text">旧密码</view>
+  <view class="Undreaming_Body">
+<view class="container" >
+    <view class="search-body">
+        <input type="text" bindinput="Undreaming_ChangeSearchKey" placeholder="请输入旧密码" confirm-type="search" bindconfirm="Undreaming_Inquire" />     
+    </view>
+</view>
+</view>
+  </view>
+</view>
+</view>
+
+<view class="box2">
+
+<view class="item" bindtap="xinmima">
+  <view class="minibox">
+    <view class="text2">新密码</view>
+    <view class="Undreaming_Body2">
+<view class="container2" >
+    <view class="search-body2">
+        <input type="text" bindinput="Undreaming_ChangeSearchKey" placeholder="请输入新密码" confirm-type="search" bindconfirm="Undreaming_Inquire" />     
+    </view>
+</view>
+</view>
+    </view>
+  </view>
+</view>
+
+  <view class="box3">
+<view class="item" bindtap="querenmima">
+  <view class="minibox">
+    <view class="text3">确认</view>
+    <view class="Undreaming_Body3">
+<view class="container3" >
+    <view class="search-body3">
+        <input type="text" bindinput="Undreaming_ChangeSearchKey" placeholder="请确认密码" confirm-type="search" bindconfirm="Undreaming_Inquire3" />     
+    </view>
+</view>
+<button bindtap="Undreaming_Inquire3">确认修改</button>
+</view>
+    </view>
+
+  </view>
+
+</view>
+

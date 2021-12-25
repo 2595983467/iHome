@@ -1,0 +1,48 @@
+<view class="type1" bindtap="jumpto">
+  <view class="type2">
+    <image class="type2" src="/images/index/zhuwo.png" mode="scaleToFill"></image>
+  </view>
+  <view class="type3">
+    <button class="type3">主卧</button>
+  </view>
+</view>
+
+<view class="river"></view>
+<view class="type1" bindtap="jumpto2">
+  <view class="type2">
+    <image class="type2" src="/images/index/ciwo.png" mode="scaleToFill"></image>
+  </view>
+  <view class="type3">
+    <button class="type3">次卧</button>
+  </view>
+</view>
+
+<view class="river"></view>
+<view class="type1" bindtap="jumpto3">
+  <view class="type2">
+    <image class="type2" src="/images/index/chufang .png" mode="scaleToFill"></image>
+  </view>
+  <view class="type3">
+    <button class="type3">厨房</button>
+  </view>
+</view>
+
+<view class="river"></view>
+<view class="type1" bindtap="jumpto4">
+  <view class="type2">
+    <image class="type2" src="/images/index/keting.png" mode="scaleToFill"></image>
+  </view>
+  <view class="type3">
+    <button class="type3">客厅</button>
+  </view>
+</view>
+
+<!-- <view class="river"></view>
+<view class="type1" bindtap="jumpto4">
+  <view class="type2">
+    <image class="type2" src="/images/mainroom/zengtian.png" mode="scaleToFill"></image>
+  </view>
+  <view class="type3">
+    <button class="type3">增添或删除房间</button>
+  </view>
+</view> -->

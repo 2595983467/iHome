@@ -1,0 +1,9 @@
+/* pages/yijianfankui/yijianfankui.wxss */
+
+/* .box1{
+
+} */
+
+.box1 .pic{
+    margin-left: 54rpx;
+}

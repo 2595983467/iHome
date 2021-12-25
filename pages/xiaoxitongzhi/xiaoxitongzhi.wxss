@@ -1,0 +1,28 @@
+/* pages/xiaoxitongzhi/xiaoxitongzhi.wxss */
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    height: 80rpx;
+    /* background-color: aqua; */
+    margin: 100rpx auto;
+    border-radius: 16rpx;
+  }
+  
+
+ .text{
+    font-family: SourceHanSansCN-Regular;
+    font-size: 32rpx;
+    /* align-items: center; */
+    align-items: center;
+    /* margin-bottom: 10rpx; */
+    margin-bottom: 5rpx;
+    margin-top: 30rpx;
+    margin-left: 10rpx;
+    position: absolute;
+  }
+
+  .minibox{
+    display: flex;
+  }

@@ -1,0 +1,14 @@
+.type1 {
+  width: 100%;
+  height: 150rpx;
+  margin-top: 1000rpx;
+}
+
+.type1 .type2 {
+  width: 60%;
+  height: 100rpx;
+  border-radius: 35rpx;
+  background-color: rgb(144, 137, 235);
+  color: rgb(235, 239, 240);
+}
+

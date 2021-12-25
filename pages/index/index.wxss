@@ -1,0 +1,161 @@
+/**index.wxss**/
+.box1{
+  width:80rpx ;
+  height: 80rpx;
+  /* background-color: aqua; */
+  margin: 10rpx 20rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.box1 .userinfo-avatar {
+
+  width: 80rpx;
+  height: 80rpx;
+  margin-left: 10rpx;
+  border-radius: 50%;
+}
+
+.box2{
+  display: flex;
+  flex-direction: row;
+  
+  width: 100%;
+  height: 50rpx;
+  margin: auto;
+  /* background-color: aqua; */
+}
+
+.box2 .text{
+  font-size: 36rpx;
+  margin-left: 30rpx;
+}
+
+
+
+.box2 .pic{
+  width: 70rpx;
+  height: 70rpx;
+}
+
+.box3{
+  width: 100%;
+  height: 186rpx;
+  margin-top: 20rpx;
+  /* background-color: aqua; */
+}
+
+.box3 .weatherbox{
+  width: 90%;
+  height: 186rpx;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  background-color: #475BF4;
+  border-radius: 40rpx;
+}
+
+.box4{
+  width: 100%;
+  height: 280rpx;
+  /* background-color: aqua; */
+  margin-top: 40rpx;
+}
+
+.box4 .text2{
+  font-size: 32rpx;
+  margin-top: 20rpx;
+  margin-left: 44rpx;
+  font-weight: bolder;
+}
+
+.box4 .changjing{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 216rpx;
+  margin: 20rpx auto;
+  /* background-color: red; */
+  white-space: nowrap;
+}
+
+.changjing .inchangjing{
+  display: inline-block;
+  margin-left: 28rpx;
+  margin-right: 28rpx;
+  width: 236rpx;
+  height: 216rpx;
+  background-color: white;
+  border-radius: 16rpx;
+}
+
+ .inchangjing .icon{
+  /* margin: 50rpx 56rpx; */
+  height: 100%;
+  width: 100%;
+  border-radius: 16rpx;
+}
+
+.type{
+  display: flex;
+  flex-direction: column;
+}
+
+.text3{
+  font-size: 32rpx;
+  margin-top: 20rpx;
+  margin-left: 44rpx;
+  font-weight: bolder;
+}
+
+
+.box5{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 350rpx;
+  margin: 20rpx auto;
+  /* background-color: red; */
+  white-space: nowrap;
+}
+
+.box5 .changjing2{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  /* margin: 20rpx auto; */
+  /* background-color: blue; */
+  white-space: nowrap;
+}
+
+.changjing2 .inchangjing2{
+  display: inline-block;
+  margin-left: 28rpx;
+  margin-right: 28rpx;
+  width: 330rpx;
+  height: 100%;
+  background-color: white;
+  border-radius: 16rpx;
+  
+}
+
+.inchangjing2 .pic2{
+  display: inline-block;
+  /* margin-left: 28rpx; */
+  /* margin-right: 28rpx; */
+  width: 330rpx;
+  height: 100%;
+  background-color: white;
+  border-radius: 16rpx;
+}
+
+
+
+
+
+
+
+
+
+

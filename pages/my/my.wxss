@@ -1,0 +1,192 @@
+/* pages/my/my.wxss */
+.box{
+    display: flex;
+    margin: 20rpx auto;
+    border-radius: 16rpx;
+    width:90%;
+    height: 140rpx;
+    background-color:#EFF6FE;
+    border: 1px;
+    border-color: gray;
+}
+.loginbutton{
+    margin-left: 70%;
+    padding-top: 10%;
+    
+}
+
+page{
+    background-color: #EFF6FE;
+}
+
+
+  
+  .userinfo-avatar {
+    overflow: hidden;
+    width: 110rpx;
+    height: 110rpx;
+    margin: 15rpx 10rpx;
+    border-radius: 50%;
+  }
+  
+  .usermotto {
+    margin-top: 200px;
+  }
+
+  .box .button{
+    font-size: 33rpx;
+    line-height: 33rpx;
+      margin-top: 35rpx;
+      justify-content: center;
+      width: 30%;
+      height: 50%;
+      background-color: #475BF4;
+      color: white;
+      border-radius: 98rpx;
+      
+  }
+  .box .button2{
+    margin-top: 45rpx;
+    margin-left: 150rpx;
+    justify-content: right;
+    width: 15%;
+    height: 35%;
+    background-color:#475BF4 ;
+    color: white;
+    border-radius: 98rpx;
+  }
+
+  .font{
+    margin-top: 5rpx;
+    font-size: 26rpx;
+    text-align: center;
+  }
+  .userinfo-nickname{
+      margin-left: 10rpx;
+      margin-top: 15rpx;
+  }
+
+  .box2{
+    display: flex;
+    width: 80%;
+    height:170rpx ;
+    background-color: #FFFFFF;
+    margin: auto;
+    border-radius: 32rpx;
+
+
+  }
+
+  .box2 .btn1{
+    width: 200rpx;
+    height: 130rpx;
+    margin-top: 20rpx;
+    color: #666666;
+    background-color:#FFFFFF;
+    border-radius: 0rpx;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    font-size: 25rpx;
+  }
+  
+  .btnImg {
+    width: 70rpx;
+    height: 70rpx;
+  }
+  
+  .btn1::after {
+    border: 0; 
+  }
+
+  .box3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    height: 240rpx;
+    /* background-color: aqua; */
+    margin: 100rpx auto;
+    border-radius: 16rpx;
+  }
+
+  .box3 .item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 70rpx;
+    /* background-color: red; */
+    border-radius: 16rpx;
+
+  }
+
+  .item .icon{
+   margin-top: 10rpx;
+    width: 50rpx;
+    height: 50rpx;
+  }
+
+ .text{
+    font-family: SourceHanSansCN-Regular;
+    font-size: 28rpx;
+    /* align-items: center; */
+    /* margin-bottom: 10rpx; */
+    margin-top: 14rpx;
+   /* background-color: blue; */
+    margin-left: 10rpx;
+  }
+
+  .item .righticon{
+    margin-top: 10rpx;
+    width: 50rpx;
+    height: 50rpx;
+    /* justify-content: right; */
+    /* margin-left: 450rpx; */
+    
+  }
+
+  .minibox{
+    display: flex;
+  }
+
+  .box4{
+    width: 70%;
+    height: 300rpx;
+    display: flex;
+    /* background-color: aqua; */
+    margin: auto;
+    flex-direction: column;
+  }
+
+  .box4 .exit{
+
+    margin-top: 150rpx;
+    height: 100rpx;
+    border-radius: 96rpx;
+    background-color: #475BF4;
+    box-shadow: 0rpx 8rpx 14rpx 0rpx #283459;
+  }
+
+  .exit .text2{
+    margin-top: 10rpx;
+    color: #FFFFFF;
+  }
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+

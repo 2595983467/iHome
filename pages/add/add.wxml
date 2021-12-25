@@ -1,0 +1,18 @@
+<!--pages/add/add.wxml-->
+<form bindsubmit="formSubmit" class="input-wrapper">
+    <view class="title">添加设备表单</view>
+  <view class="input-data">
+    <input class="input" placeholder="请输入设备id" bindinput="deviceIdInput" placeholder-class="placeholder-style"></input>
+     <view class="underline"></view>
+  </view>
+  <view class="input-data">
+    <input class="input" placeholder="请输入设备名称" bindinput="deviceNameInput" placeholder-class="placeholder-style"></input>
+    <view class="underline"></view>
+  </view>
+  <view class="input-upload">
+    <button bindtap='chooseImg' style="width:80vw;height:12vw;font-size: 48rpx;color: #B0C4DE;margin-bottom: 30rpx;border-radius: 40rpx;background-color: #FFFFFF;font-family: 'Times New Roman', Times, serif;font-weight:1500;">请选择上传的设备图</button> 
+  </view>
+  <view class="input-submit" > 
+    <button bindtap='submit' style="width:80vw;height:12vw;font-size: 48rpx;color: #B0C4DE;margin-bottom: 30rpx;border-radius: 40rpx;background-color: #FFFFFF;font-family: 'Times New Roman', Times, serif;font-weight:1500;">提交</button> 
+  </view>
+</form>  

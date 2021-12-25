@@ -1,0 +1,44 @@
+/* pages/zhanghaoanquan/zhanghaoanquan.wxss */
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    height: 80rpx;
+    /* background-color: aqua; */
+    margin: 100rpx auto;
+    border-radius: 16rpx;
+  }
+  
+
+ .text{
+    font-family: SourceHanSansCN-Regular;
+    font-size: 32rpx;
+    /* align-items: center; */
+    align-items: center;
+    /* margin-bottom: 10rpx; */
+    margin-bottom: 5rpx;
+    margin-top: 30rpx;
+    margin-left: 10rpx;
+    position: absolute;
+  }
+
+  .item .righticon{
+    margin-top: 30rpx;
+    width: 30rpx;
+    height: 30rpx;
+    justify-content: right;
+    right: 20px;
+    margin-left: 650rpx;
+    position: absolute;
+    border-top: 0px;
+    border-right: 0px;
+    transform: rotate(45edg);
+    /* justify-content: right; */
+    /* margin-left: 650rpx; */
+    
+  }
+
+  .minibox{
+    display: flex;
+  }

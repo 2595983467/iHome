@@ -1,0 +1,11 @@
+/* pages/login/login.wxss */
+.logostyle{
+    margin-top: 150rpx;
+}
+.loginbutton{
+    margin-top: 200rpx;
+    
+}
+.loginbutton2{
+    margin-top: 40rpx;
+}

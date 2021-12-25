@@ -1,0 +1,10 @@
+<!--pages/guanyu/guanyu.wxml-->
+<view class="box1">
+    
+    <image class="pic" src="/images/guanyu/logo.png" mode="widthFix"></image>
+    <view class="box2">
+    <text class="text1">Version 1.0.0</text>
+    </view>
+
+
+</view>

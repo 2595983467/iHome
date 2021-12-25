@@ -1,0 +1,23 @@
+/* pages/shoucang/shoucang.wxss */
+.box1{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 700rpx;
+    margin: 100rpx auto;
+    /* background-color: blue; */
+
+}
+
+.box1 .pic{
+    margin: 30rpx auto;
+    width: 600rpx;
+    height: 600rpx;
+}
+
+.box1 .text{
+    font-size: 45rpx;
+    margin: auto;
+    color: #C4C4C4;
+}
+

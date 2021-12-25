@@ -1,0 +1,11 @@
+<!--pages/delete/delete.wxml-->
+<form bindsubmit="DelFormSubmit" class="delete-wrapper">
+    <view class="title">删除设备表单</view>
+  <view class="delete-data">
+    <input class="input" placeholder="请输入设备id" bindinput="deviceIdDelete" placeholder-class="placeholder-style"></input>
+     <view class="underline"></view>
+  </view>
+  <view class="delete-submit" > 
+    <button bindtap='DelSubmit' style="width:80vw;height:12vw;font-size: 48rpx;color: #B0C4DE;margin-bottom: 30rpx;border-radius: 40rpx;background-color: #FFFFFF;font-family: 'Times New Roman', Times, serif;font-weight:1200;">提交</button> 
+  </view>
+</form>  

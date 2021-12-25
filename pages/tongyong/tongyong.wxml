@@ -1,0 +1,22 @@
+<!--pages/tongyong/tongyong.wxml-->
+<view class="box">
+
+<view class="item" bindtap="zitidaxiao">
+<view class="minibox">
+  <view class="text">字体大小</view>
+  </view>
+  <view>
+  <image class="righticon" src="/images/shezhi/jiantou.png" mode="widthFix"></image>
+  </view>
+</view>
+
+<view class="item" bindtap="cunchukongjian">
+<view class="minibox">
+  <view class="text">存储空间</view>
+  </view>
+  <view>
+  <image class="righticon" src="/images/shezhi/jiantou.png" mode="widthFix"></image>
+  </view>
+</view>
+
+</view>
