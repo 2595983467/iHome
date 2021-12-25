@@ -1,0 +1,15 @@
+<!--pages/chengyuanguanli/tianjia.wxml-->
+<view class="page3">
+            <view class="page4">
+                <view class="weui-cell__bd">
+                    <input class="weui-input" placeholder="请输入允许进行操作的账号" bindinput="getzhanghao"/>
+                </view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input" placeholder="备注" bindinput="getbeizhu"/>
+                </view>
+                <view class="submit">
+                    <button class="submit" bindtap='add'>保存</button>
+                </view>         
+            </view>       
+            </view>          
+

@@ -1,0 +1,12 @@
+<!--pages/editor/change.wxml-->
+<view class="page3">
+            <view class="page4">
+                <view class="weui-cell__bd">
+                    <input class="weui-input" placeholder="请输入昵称" bindchange='changeName'/>
+                </view>
+                <view class="submit">
+                    <button class="submit" bindtap='backEditor'>保存</button>
+                </view>
+               
+            </view>
+</view>

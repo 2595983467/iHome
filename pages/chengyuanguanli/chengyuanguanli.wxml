@@ -1,0 +1,31 @@
+<!--pages/chengyuanguanli/chengyuanguanli.wxml-->
+<navigator url="/pages/chengyuanguanli/tianjia" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="tu">
+                    <image src="/images/chengyuanguanli/tianjia.png" style="margin-right: 5px;vertical-align: middle;width:50px; height: 50px; padding-top:5rpx; padding-left:600rpx; "></image>
+                </view>
+                <view class="zi" style="margin-right: 5px;vertical-align: middle;font-size:40rpx; padding-top:5rpx; padding-left:600rpx; color:rgba(29, 2, 2, 0.699)">添加</view>
+            </navigator>
+<view class="bigpage">
+    <view class="lump" bindtap="yijianfankui">
+  <view class="lump1">
+    <image class="lump2" src="/images/chengyuanguanli/touxiang.png" mode="widthFix"></image>
+    <view class="lump3" style="color:rgba(0, 10, 4, 0.699)">{{userinfo.nickName}}</view>
+    </view>
+    <view>
+    <image class="lump4" src="/images/chengyuanguanli/jiantou.png" mode="widthFix"></image>
+    </view>
+  </view>
+  <view class="lump" >
+  <view class="b">
+    <image class="b1" src="/images/chengyuanguanli/touxiang.png" style="margin-right: 5px;vertical-align: middle;width:50px; height: 50px; padding-top:5rpx; padding-left: 50rpx;"></image>
+    <view class="b2" wx:for="{{list}}" wx:key="list" style=" font-size: 45rpx;  color: rgba(29, 2, 2, 0.699); padding-left: 50rpx; padding-top:15rpx;" bindtap="goDelete" data-id="{{item._id}}" >{{item.beizhu}}</view>
+    </view>
+    <view>
+    <image class="b3" src="/images/chengyuanguanli/zhanghao.png" style="vertical-align: middle;width:50px; height: 50px; padding-top:10rpx; padding-left:350rpx; "></image>
+    <view class="b4" wx:for="{{list}}" wx:key="list" style="font-size: 45rpx; color: rgba(29, 2, 2, 0.699);  padding-top: 15rpx; padding-left:350rpx;">{{item.zhanghao}}</view> 
+      
+    </view>
+  
+  </view>
+</view>
+  

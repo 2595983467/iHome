@@ -1,0 +1,28 @@
+/* pages/editor/youxiang.wxss */
+.page3{
+    font-size:40rpx;
+    color:rgb(170, 57, 5);
+}
+.weui-cell__bd{
+    widows: 100px;
+    height: 50rpx;
+    border: 5rpx solid blue;
+    border-radius:25rpx;
+    padding-top: 15px;
+    width:95%;
+    padding-left:15px;
+}
+.submit{
+    margin: 0 auto;
+    padding-top:10px;
+    width: 50%;
+    color: red !important;
+}
+
+.page__bd {
+    padding-bottom: 20px;
+}
+.page__bd_spacing {
+    padding-left: 0px;
+    padding-right: 0px;
+}

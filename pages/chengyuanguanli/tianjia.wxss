@@ -1,0 +1,29 @@
+/* pages/chengyuanguanli/tianjia.wxss */
+.page3{
+    font-size:40rpx;
+    color:rgb(29, 175, 36);
+}
+.weui-cell__bd{
+    widows: 100px;
+    height: 50rpx;
+    border: 5rpx solid rgb(55, 0, 128);
+    border-radius:25rpx;
+    padding-top: 15px;
+    width:95%;
+    padding-left:15px;
+    margin-top: 10rpx;
+}
+.submit{
+    margin: 0 auto;
+    padding-top:10px;
+    width: 50%;
+    color: rgb(179, 255, 0) !important;
+}
+
+.page__bd {
+    padding-bottom: 20px;
+}
+.page__bd_spacing {
+    padding-left: 0px;
+    padding-right: 0px;
+}

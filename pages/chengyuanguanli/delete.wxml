@@ -1,0 +1,6 @@
+<!--pages/chengyuanguanli/delete.wxml-->
+<view class="b2" wx:key="list" style=" font-size: 40rpx;  color: rgb(255, 145, 0); padding-left: 100rpx; padding-top: 50rpx; ">备注:{{use.beizhu}}</view>
+<view class="b4"  wx:key="list" style="font-size: 40rpx; color: rgb(255, 145, 0);   padding-left:100rpx; padding-top:30rpx;">账号:{{use.zhanghao}}</view> 
+<view>
+     <button class="lump4"  style="font-size: 40rpx; color: rgb(255, 72, 0); margin-right: 200rpx; margin-top:20rpx;" bindtap='remove'>删除</button>
+    </view> 

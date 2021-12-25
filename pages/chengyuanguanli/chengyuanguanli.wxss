@@ -1,0 +1,44 @@
+/* pages/chengyuanguanli/chengyuanguanli.wxss */
+.bigpage{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    height: 240rpx;
+    /* background-color: aqua; */
+    margin: 100rpx auto;
+    border-radius: 16rpx;
+}
+.lump{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 90rpx;
+    /* background-color: red; */
+    border-radius: 16rpx;
+}
+.lump1{
+    display: flex;
+}
+.lump2{
+    margin-top: 5rpx;
+    width: 90rpx;
+    height: 90rpx;
+}
+.lump3{
+    font-family: SourceHanSansCN-Regular;
+    font-size: 40rpx;
+    /* align-items: center; */
+    /* margin-bottom: 10rpx; */
+    margin-top: 14rpx;
+   /* background-color: blue; */
+    margin-left: 10rpx;
+}
+.lump4{
+ margin-top: 5rpx;
+    width: 80rpx;
+    height: 80rpx;
+    /* justify-content: right; */
+    /* margin-left: 450rpx; */
+}

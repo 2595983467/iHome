@@ -1,0 +1,46 @@
+<!--pages/editor/ediotr.wxml-->
+
+<view class="page__hd">
+    <navigator url="" class="section1" hover-class="weui-cell_active">
+                <view class="page2">
+                    <image src="{{userinfo.avatarUrl?userinfo.avatarUrl:'/images/editor/touxiang.png'}} "style="margin-left: 0rpx;vertical-align: middle;width:80px; height: 80px;" ></image>
+                </view>
+                <view class="page-bd1">头像</view>
+            </navigator>
+            <navigator url="./change?changeWhat=name" class="section" hover-class="weui-cell_active">
+                <view class="page1">
+                    <image src="/images/editor/xingbie.png" style="margin-right: 5px;vertical-align: middle;width:40px; height: 40px;"></image>
+                </view>
+                <view class="page-bd2" >昵称</view> 
+                <view class="page-bd"  >{{userinfo.nickName}}</view>
+                             
+            </navigator>
+            <navigator url="/pages/editor/xingbie" class="section" hover-class="weui-cell_active">
+                <view class="page1">
+                    <image src="/images/editor/nicheng.png" style="margin-right: 5px;vertical-align: middle;width:40px; height: 40px;"></image>
+                </view>
+                <view class="page-bd2">性别</view>
+                <view class="page-bd" >{{sex}}</view>
+            </navigator>
+            <navigator url="/pages/editor/dianhua" class="section" hover-class="weui-cell_active">
+                <view class="page1">
+                    <image src="/images/editor/dianhua.png" style="margin-right: 5px;vertical-align: middle;width:40px; height: 40px;"></image>
+                </view>
+                <view class="page-bd2">电话</view>
+                <view class="page-bd">{{tell}}</view>
+            </navigator>
+            <navigator url="/pages/editor/youxiang" class="section" hover-class="weui-cell_active">
+                <view class="page1">
+                    <image src="/images/editor/youxiang.png" style="margin-right: 5px;vertical-align: middle;width:40px; height: 40px;"></image>
+                </view>
+                <view class="page-bd2">邮箱</view>
+                <view class="page-bd">{{email}}</view>
+            </navigator>
+            <navigator url="/pages/editor/chushengriqi" class="section" hover-class="weui-cell_active">
+                <view class="page1">
+                    <image src="/images/editor/shengri.png" style="margin-right: 5px;vertical-align: middle;width:40px; height: 40px;"></image>
+                </view>
+                <view class="page-bd2">生日</view>
+                <view class="page-bd">{{date}}</view>
+            </navigator>
+        </view>

@@ -1,0 +1,7 @@
+/* pages/chengyuanguanli/delete.wxss */
+.b3{
+    widows: 100px;
+    height: 0rpx;
+    
+    width: 200px;
+}
